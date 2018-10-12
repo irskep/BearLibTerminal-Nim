@@ -37,6 +37,7 @@ proc terminalRefresh*(): void {.cdecl, importc: "terminal_refresh", dynlib: libN
 proc terminalRead*(): BLInt {.cdecl, importc: "terminal_read", dynlib: libName}
 proc terminalPeek*(): BLInt {.cdecl, importc: "terminal_peek", dynlib: libName}
 proc terminalSet*(configString: cstring): BLInt {.cdecl, importc: "terminal_set8", dynlib: libName}
+proc terminalGet*(key: cstring, defaultValue: cstring): cstring {.cdecl, importc: "terminal_get8", dynlib: libName}
 proc terminalState*(slot: BLInt): BLInt {.cdecl, importc: "terminal_state", dynlib: libName}
 proc terminalDelay*(milliseconds: BLInt): void {.cdecl, importc: "terminal_delay", dynlib: libName}
 proc terminalLayer*(layer: BLInt): void {.cdecl, importc: "terminal_layer", dynlib: libName}

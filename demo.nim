@@ -5,6 +5,7 @@ import src/blt_types
 when isMainModule:
   discard terminalOpen()
   discard terminalSet("window: size=30x10;")
+  echo "BearLibTerminal version: ", terminalGet("version", "???")
   let printSize = terminalPrint(newBLRect(0, 0, 4, 4), TK_ALIGN_LEFT, "ooga booga")
   echo "print size ", printSize.w, " ", printSize.h
   terminalRefresh()

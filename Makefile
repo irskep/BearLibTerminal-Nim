@@ -1,4 +1,4 @@
 .PHONY: run
 
 run:
-	nim c -r main.nim
+	nim c -r demo.nim
