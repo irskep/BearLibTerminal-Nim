@@ -1,6 +1,6 @@
-import blt_const
-import blt_funcs
-import blt_types
+import src/blt_const
+import src/blt_funcs
+import src/blt_types
 
 when isMainModule:
   discard terminalOpen()

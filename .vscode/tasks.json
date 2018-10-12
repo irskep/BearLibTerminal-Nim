@@ -5,8 +5,8 @@
   "tasks": [
     {
       "label": "Run main.nim",
-      "command": "/Users/steve/.nimble/bin/nim",
-      "args": ["c", "-r", "../main.nim"],
+      "command": "nim",
+      "args": ["c", "-r", "../demo.nim"],
       "options": {
         "cwd": "${workspaceRoot}/binaries"
       },
