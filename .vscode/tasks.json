@@ -6,9 +6,9 @@
     {
       "label": "Run main.nim",
       "command": "/Users/steve/.nimble/bin/nim",
-      "args": ["c", "-r", "main.nim"],
+      "args": ["c", "-r", "../main.nim"],
       "options": {
-        "cwd": "${workspaceRoot}"
+        "cwd": "${workspaceRoot}/binaries"
       },
       "type": "shell",
       "group": {
