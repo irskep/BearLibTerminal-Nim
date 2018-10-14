@@ -115,7 +115,7 @@ proc terminalPickBackgroundColor*(point: BLPoint): BLColor =
 # Convenience
 
 proc colorFromARGB*(a: uint8, r: uint8, g: uint8, b: uint8): BLColor =
-  return (BLColor(a) shl 24) or (BLColor(r) shl 16) or (BLColor(g) shl 8) or BLColor(b)
+  return (cast[BLColor](a) shl 24) or (cast[BLColor](r) shl 16) or (cast[BLColor](g) shl 8) or cast[BLColor](b)
 
 proc terminalMeasure*(stringToMeasure: cstring): BLSize =
   terminalMeasure(newBLSize(0, 0), stringToMeasure)
