@@ -20,6 +20,9 @@
 * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
+/* NOTE: This header is only included in the repo for reference. It is not used
+   by the module at all. -irskep */
+
 #ifndef BEARLIBTERMINAL_H
 #define BEARLIBTERMINAL_H
 

@@ -1,7 +1,7 @@
 import bearlibterminal
 
 when (compiles do: import rexpaint):
-  # REXPaintImage + BearLibTerminal
+  # REXPaintImage + BearLibTerminal (ignore this block if you don't care about REXPaint)
 
   # You might want to copy/paste these into your own code if you're using
   # both REXPaint and BearLibTerminal.
