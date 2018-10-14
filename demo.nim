@@ -1,4 +1,4 @@
-import src/bearlibterminal
+import bearlibterminal
 
 when (compiles do: import rexpaint):
   # REXPaintImage + BearLibTerminal

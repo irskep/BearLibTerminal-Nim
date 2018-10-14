@@ -2,6 +2,14 @@
 
 This is a port of [BearLibTerminal](http://foo.wyrd.name/en%3Abearlibterminal%3Areference) to Nim.
 
+## Installation
+
+1. Download the shared library binary from [the BearLibTerminal web site.](http://foo.wyrd.name/en:bearlibterminal)
+2. `nimble install bearlibterminal`
+3. Make sure the shared library is somewhere it can be found. For development, this would typically be the working directory of your program when it runs.
+
+## Usage
+
 All functions are identical to the C versions, except:
 * `int` is aliased to `BLInt`
 * `uint32` is aliased to `BLColor`
