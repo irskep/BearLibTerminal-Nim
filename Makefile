@@ -1,4 +1,4 @@
 .PHONY: run
 
 run:
-	nim c -r demo.nim
+	cd binaries && nim c -r ../demo.nim
